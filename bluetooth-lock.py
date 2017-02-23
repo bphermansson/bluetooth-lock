@@ -7,6 +7,7 @@ from optparse import OptionParser
 import subprocess
 import time
 
+ENV = "KDE"   # Can be 'KDE' or 'GNOME'
 DEVICEADDR = "AA:BB:CC:DD:EE:FF"  # bluetooth device address
 CHECKINTERVAL = 60  # device pinged at this interval (seconds) when screen is unlocked
 CHECKREPEAT = 2  # device must be unreachable this many times to lock
